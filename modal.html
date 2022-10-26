@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#exampleModal1">Reister</a>
+              </li>
+            </ul>
+        </div>
+      </nav> 
+    <!-- Button trigger modal -->
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="col-lg-12">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="col-lg-12">
+                    <button class="btn btn-outline-secondary w-100 mt-3">Login</button>
+                </div>
+            </div>
+         </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">Last Name</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-lg-12">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="col-lg-12">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="col-lg-12">
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">State / UT</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">City</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">Pin Code</label>
+                    <input class="form-label" type="tel">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">Date of Birth</label>
+                    <input class="form-control" type="date">
+                </div>
+                <div class="col-lg-6">
+                    <label class="form-label">contact Number</label>
+                    <input class="form-control" type="tel">
+                </div>
+
+                <div class="col-lg-12">
+                    <button class="btn btn-outline-secondary w-100 mt-3">Register</button>
+                </div>
+            </div>
+         </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
